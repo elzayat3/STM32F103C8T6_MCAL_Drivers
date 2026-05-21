@@ -90,4 +90,8 @@ typedef enum
 #define GET_BIT(REG,BIT) (((REG>>BIT)& 1UL))
 
 
+
+#define NULLPTR          ((void*)0)
+
+
 #endif /* STD_TYPES_H_ */
